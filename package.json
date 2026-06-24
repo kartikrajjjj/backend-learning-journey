@@ -4,13 +4,15 @@
   "description": "Learning Node.js, Express.js, MongoDB, REST APIs, Authentication, and Backend Development from scratch.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@types/node": "^26.0.0"
+    "@types/node": "^26.0.0",
+    "nodemon": "^3.1.14"
   }
 }
